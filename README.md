@@ -18,4 +18,11 @@
 ```
 It defines how height and width of element are calculcated.
 ```
+## Flexbox
+```
+ Flexbox is short for the Flexible Box Layout module.
+
+```
+
+
 
