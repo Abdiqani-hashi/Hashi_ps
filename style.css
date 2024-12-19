@@ -4,7 +4,12 @@
     margin: 0;
     padding: 0;
 }
+body{
+    margin: 0 auto;
+    border: 2px solid rgb(52, 51, 51);
+    font-family: Arial, Arial bold, Arial Black;
 
+}
 
 #navbar{
     background-color: #454f6f;
@@ -29,6 +34,150 @@
     text-align: center;
     padding: 23px;
     margin: 5px;
-
  
 }
+
+
+.hero{
+    background-color: #e6834c;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 4em;
+    padding: 200px;
+    
+}
+.hero h1{
+    color: #fff;
+    font-size: 4em;
+    padding: 4px;
+    font-weight: 400px;
+}
+
+.hero p {
+    color: #fff;
+    font-style: normal;
+    font-size: 3em;
+
+    
+
+   
+}
+
+
+.about_fatuma{
+    background-color: #F0F4FF;
+    width: 90%;
+    padding: 60px;
+    margin: 20px;
+    margin:auto;
+
+   
+}
+
+.about_fatuma h1{
+    font-weight: 400px;
+    padding: 4px 0;
+    text-align: center;
+}
+.about_fatuma p{
+    text-align: left;
+    font-size:17px;
+    margin: 2px 20px;
+    padding: 4px 70px;
+    line-height: 1.5em;
+
+}
+
+main{
+    display: flex;    
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.pasta{
+    display: inline-block;
+    width: 500px;
+    height: 280px;
+    margin-top: 20px;
+}
+
+.banana{
+    display: inline-block;
+    width: 500px;
+    height: 150px;
+    margin-top: 20px;
+    
+}
+
+
+.pasta h2{
+    padding: 4px;
+    margin-bottom: 6px;
+}
+.banana h2{
+
+    padding: 4px;
+    margin-bottom: 8px;
+
+}
+
+.pasta h2{
+   line-height: 1.5em;
+   text-align: center;
+}
+
+.banana h2{
+    line-height: 1.5em;
+    text-align: center;
+ }
+
+ .pasta p{
+    line-height: 1.5em;
+    text-align:left;
+ }
+ 
+ .banana p{
+     line-height: 1.5em;
+     text-align: left;
+  }
+
+  .last-section{
+    display: flex;
+    justify-content:space-around;
+    margin: 40px 0;
+  }
+  .last-section article{
+    display: inline-block;
+    width: 600px;
+    height: 200px;
+    text-align: center;
+    line-height: 1.3em;
+  }
+
+  .last-section article h2{
+   margin-bottom: 10px;
+   
+  }
+  .last-section article p{
+    text-align: left;
+  }
+  .last-section address{
+    display: inline-block;
+    width: 600px;
+    height: 200px;
+    text-align: center;
+    margin-top: 56px;
+    line-height: 1.3em;
+  }
+
+  .last-section address{ 
+    text-align: left;
+  }
+
+  footer{
+    text-align: center;
+    background-color: #E6834C;
+    padding: 20px;
+  }
+  
