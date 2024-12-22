@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+   
+}
+
+body{
+    font-family: Arial, Arial bold, Arial Black;
+    font-size: 16px;;
+    margin: 0 80px;
+}
+
+.under_main{
+    background-color: #edf2f4;
+    padding: 50px;
+    margin: 20px 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.banana{
+
+    background-color: #8d99ae;
+    color: #FFFFFF;
+    width:500px;
+    padding: 40px;
+    margin: 20px;
+ 
+   
+  
+
+}
+.catering{
+    margin: 20px;
+    background-color: #8d99ae;
+    color: #FFFFFF;
+    text-align: left;
+    line-height: 22px;
+    width:500px;
+    padding: 40px;
+    margin: 20px;
+
+
+
+}
+
