@@ -1,8 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media (min-width:600px) {
@@ -17,8 +13,7 @@
     header{
        
             width: 100%;
-           
-            
+
         
         }
 
