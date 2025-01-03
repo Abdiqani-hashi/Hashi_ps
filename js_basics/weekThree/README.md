@@ -21,10 +21,20 @@ You’re a detective investigating a mysterious code. Your clue is a number that
 4. If it’s even, console.log("This number is even. The thief is neat!").
 
 
+# Task 3: Mood Checker 🚀🚀🚀🚀
 
-# Strings
+You are designing a basic mood tracker app. Write a script that:
 
-`Strings` are used to store text and are written with quotes.
+1. Prompts the user to share how they feel today (e.g., happy, sad, tired).
+2. If the user enters "happy", console.log("I'm glad to hear that!").
+3. If the user enters "sad", console.log("I'm sorry, hope you feel better soon.").
+4. If the user enters "tired", console.log("Make sure to get some rest.").
+5. For any other input, console.log("Thank you for sharing how you feel.").
+
+
+
+
+
 
 
 
