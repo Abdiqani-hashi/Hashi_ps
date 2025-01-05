@@ -5,7 +5,8 @@
 
 - [Function](#function)
 - [Defining functions](#defining-functions)
-- []
+- [Parameter Rules](#parameter-rules)
+- [Arguments Object](#arguments-object)
  
 </details>
 
@@ -44,6 +45,7 @@ add(2,3) // 2 + 3 = 5
 Now call the function name followed by parenthes , outside of the function itself. and then pass `2 and 3` inside the parenthes.
 
 [see above code ](#for-example)
+---
 
 *NOTE*
 
@@ -97,5 +99,59 @@ function add(...numbers){
      }
     return total;
 }
-console.log(add(1,2,3))// result is 6
+console.log(add(1,2,3))// 6
+```
+[Go back](#parameter-rules)
+
+
+---
+
+### Arguments Object
+> `Argument object` is a built-in feature in javascript functions.It holds an array of all values you give when you call the function.It will let to use a function to get highest number in a list of numbers.
+
+```js
+
+let x = findMax(1,100,30,400)
+function findMax(){
+    let max = -Inifity;
+    for(let i = 0; i<arguments.length;i++){
+        if(arguments[i] > max){
+            max = arguments[i]
+        }
+    }
+
+return max;
+
+}
+
+```
+
+
+>Creating a function to sum all input values.
+
+```js
+x = sumAll(1,3,3,4,56)
+function sumAll(){
+    let sum = 0;
+    for(let i =0; i < arguments.length; i++){
+     sum += arguments[i];
+    }
+    return sum;
+
+}
+
+```
+> Another function to sub all input values
+
+```js
+function subTract(a,b){
+    let total = 0;
+    for(let i = 0; i < arguments.length; i++){
+        total -= arguments[i];
+    }
+    return total;
+}
+
+subTract(2,3)
+
 ```
