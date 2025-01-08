@@ -1,10 +1,10 @@
 # Javascript-basics-functions
 
 <details>
-<summary>Table of contents</summary>
+    <summary>Table of contents</summary>
 
 - [Function](#function)
-- [Defining functions](#defining-functions)
+-[Defining functions](#defining-functions)
 - [Parameter Rules](#parameter-rules)
 - [Arguments Object](#arguments-object)
  
